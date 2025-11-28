@@ -1,0 +1,209 @@
+.parallax__container {
+	clip: rect(0, auto, auto, 0);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -100;
+}
+.parallax__container .parallax {
+	/* can be put in a seperate class for better control */
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* --------------------------- */
+	position: fixed;
+	top: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	width: 100%;
+}
+
+.SobreColor {
+	filter: invert(7%) sepia(0%) saturate(13%) hue-rotate(192deg) brightness(15%) contrast(104%);
+}
+
+.sombrasobre {
+	filter: drop-shadow(0 0 0.75 rgb(0, 0, 0));
+
+
+
+
+}
+
+/* CODIGO PARA IMAGENES FIJAS ,el section-(portada,final,ect) es lo que se remplaza en el index y se borra el bgparalax que tenga /
+/* 
+
+
+ .section-(final,portada,etc)-{
+	display: flex; 
+	background-image: url(..//images/final_x2.jpg);
+	background-position: 55% 50%; 
+	height: 50vh; 
+	width: 100%; 
+	background-attachment: fixed;
+	position: relative;
+  }
+  
+  .section-(final,portada,etc)::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  @media only screen and (max-width: 600px) {
+	.section-(final,portada,etc){
+	
+	  background-attachment: scroll;
+	  background-image: url(..//images/final_x1.jpg);
+	}
+  }*/
+
+/* Mucho ojo cuate ,si te mandan fotos feas que no se acomoden en ambas versiones (pc y moviles deveras hacer el ajuste de dos verciones "x1 y x2 "  */
+
+/* PORTADA */
+.bgPortada {
+	background-image: url("../images/rosas.jpeg");
+	background-position: 40%, 60%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgPortada {
+		background-image: url("../images/rosas.jpeg");
+	}
+}
+
+.bgPortada::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+/*	background-color: rgba(0, 0, 0, 0.3);*/
+}
+
+/* COUNTER */
+
+.bgCounter {
+	background-image: url("../images/rosas.jpeg");
+	background-position: 40%, 60%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgCounter {
+		background-image: url("../images/rosas.jpeg");
+	}
+}
+
+.bgCounter::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+/* ITINERARIO */
+  
+.bgItinerario {
+	background-image: url("../images/d7ecba04-46d2-431a-922b-29e11c74cc94.JPEG");
+	background-position: 40%, 60%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgItinerario {
+		background-image: url("../images/d7ecba04-46d2-431a-922b-29e11c74cc94.JPEG");
+	}
+}
+
+.bgItinerario::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* GIFTS */
+  
+/*.bgGifts {
+	background-image: url("../images/gifts_x1.jpg");
+	background-position: 30% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgGifts {
+		background-image: url("../images/gifts_x1.jpg");
+	}
+}
+
+.bgGifts::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}*/
+
+/* IG */
+  
+/*.bgIg {
+	background-image: url("../images/ig_x1.jpg");
+	background-position: 30% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgIg {
+		background-image: url("../images/ig_x1.jpg");
+	}
+}
+
+.bgIg::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.05);
+}*/
+
+
+/* FINAL */
+  
+.bgFinal {
+	background-image: url("../images/rosas.jpeg");
+	background-position: 40%, 60%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgFinal {
+		background-image: url("../images/rosas.jpeg");
+	}
+}
+
+.bgFinal::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}

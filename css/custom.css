@@ -1,0 +1,214 @@
+
+/* Start: Google Maps Responsive */
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:400px; 
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+/*style-2*/
+.blackslick .content-slider-with-large-controls .slick-arrow,
+.content-slider-with-large-controls-autoplay .slick-arrow {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #000000;
+  border: 0;
+  margin-top: 150px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+  @media only screen and (max-width: 600px) {
+    h1.logo-font.h1perso {
+      font-size: 2rem;
+    }
+  }
+
+  .bg-perso{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    z-index: 4;
+    /*position: relative;*/
+    overflow: hidden;
+  }
+
+.countdown2_style{
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .countdown2_style{
+    font-size: 2rem;
+  }
+}
+
+.comillas{
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .timeline-date-label{
+margin-bottom: 20px;
+margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blogpost{
+    margin-bottom: 50px;
+  }
+
+  .blogpost header{
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .timeline{
+    padding: 0 0;
+    margin-top: 10px;
+  }
+}
+
+@font-face {
+  font-family: Gistesy;
+  src: url(../fonts/Gistesy.ttf);
+}
+
+.portada_custom{
+  font-family: 'Great Vibes', cursive;
+  font-size: 5rem;
+  text-transform: none;
+}
+
+.texto_custom{
+  font-family: cursive;
+  font-size: 5rem;
+  text-transform: none;
+}
+
+.lateralRamo1Borrar{
+  position: absolute;
+  z-index: 20;
+  height: 100vh;
+  left: -5rem;
+}
+
+.lateralRamo2Borrar{
+  position: absolute;
+  z-index: 20;
+  height: 100vh;
+  left: -6.5rem;
+}
+
+.lateralRamo{
+  position: fixed;
+  z-index: 20;
+  height: 100vh;
+  left: -5.8rem;
+  top: 0;
+}
+
+.lateralRamo2{
+  position: fixed;
+  z-index: 21;
+  height: 100vh;
+  right: -5.8rem;
+  top: 0;
+}
+
+@media (max-height: 720px) {
+  .lateralRamo{
+    left: -4rem;
+  }
+
+  .lateralRamo2{
+    right: -4rem;
+  }
+}
+
+.waze-btn {
+    background-color: #A8A9AD;     /* ⭐ Color de fondo */
+    color: #2C326E;                  /* Color del texto */
+    padding: 12px 28px;
+    border: none;
+    border-radius: 12px;           /* Bordes redondeados */
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+    display: flex;                 /* Centra icono + texto */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;                     /* Espacio entre icono y texto */
+
+    transition: 0.25s ease;
+
+    align-items: center;
+
+    font-family: "Style Script", cursive;
+    text-transform: none;
+}
+
+.waze-btn img {
+    width: 26px;    /* ⭐ Tamaño del icono */
+    height: auto;
+}
+
+.waze-btn:hover {
+    background-color: #A8A9AD;    /* ⭐ Color al pasar el mouse */
+    transform: scale(1.03);
+}
+
+/* Nuevo estilo del botón de música */
+.musicButton {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  width: 48px;
+  height: 48px;
+  background-color: #A8A9AD; /* color de fondo */
+  color: #2C326E;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999;
+  opacity: 1 !important;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Tamaño y color del icono */
+.musicButton i {
+  font-size: 22px;
+  color: #2C326E;
+}
+
+#boton.musicButton {
+  bottom: 20px !important;
+  right: 20px !important;
+  top: auto !important;
+  left: auto !important;
+  margin: 0 !important;
+  transform: none !important;
+}

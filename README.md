@@ -1,2 +1,2 @@
-# Boda-FyR5
-Boda F&amp;R 5 personas
+# Boda-FyR1
+Boda F&amp;R 1 persona
